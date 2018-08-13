@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Clock plugin",
+  "description": "The plugin which shows time",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
